@@ -17,4 +17,4 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 # Pemisahan Protein dan Ligan (menggunakan Biovia Discovery Studio Visualizer)
 1. Protein dapat di download dari situs https://www.rcsb.org/
 2. Memisahkan Protein, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Ligan (Script > Selection > Select Ligands > Delete)
-3. Memisahkan Native_Ligan, hapus molekul air dan Protein
+3. Memisahkan Native_Ligan, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Protein (Script > Selection > Select Ligands > Edit > Invert Selection > Delete)
