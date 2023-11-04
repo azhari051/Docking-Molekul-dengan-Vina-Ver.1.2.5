@@ -50,6 +50,19 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 9. Select Ligand>Torsion Tree>Set Number of Torsions select atom yang sedikit, dan Klik Dismiss
 10. Select Ligand>output>simpan dan beri Nama Native_ligand.pdbqt
 
+# Preparasi Ligan Uji Menggunakan Autodock Tools
+1. Gambarkan Ligan Uji dengan Software Marvin Sketch atau Chemdraw Ultra > Save dengan Nama Ligan_Uji.pdb
+2. Buka Ligan_Uji.pdb
+3. Tambahkan Hydrogen (klik Edit>Add Hydrogen>All)
+4. Edit tambahkan gasteiger charge
+5. Edit-Hydrogen Merge Non Polar
+6. Klik Ligand>Input>choose
+7. Pilih Ligan_Uji.pdb
+8. ligand>Toorsion tree>detect root
+9. Klik Ligand>Torsion Tree>Choose Torsions, Klik Done
+10. Select Ligand>Torsion Tree>Set Number of Torsions select atom yang sedikit, dan Klik Dismiss
+11. Select Ligand>output>simpan dan beri Nama Ligan_Uji.pdbqt
+
 # Penentuan Sisi Aktif pada Protein Target
 - membaca artikel protein di RCSB
 - Online > Website Uniprot https://www.uniprot.org/
@@ -57,7 +70,9 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 - Offline Software Discovery Studio Visualizer
 - Koordinat XYZ dan radius Sisi Aktif yang didapat di copykan dalam notepad > disimpan dengan nama sisi aktif_nama protein 
 
-  # Docking Ligan ke Protein Target Menggunakan Vina
+# Docking Ligan ke Protein Target Menggunakan Vina
+1. Protein.pdb dan Native_ligan
+2. Copykan file Vina dan Script Vina yang di download di https://drive.google.com/drive/folders/1nWgguowPkIm4MjWj1DJNkgvvgSz8Hpel?usp=drive_link ke dalam folder
 
-  # Penentuan Nilai RMSD Ligan hasil Docking 
+# Penentuan Nilai RMSD Ligan hasil Docking 
 
