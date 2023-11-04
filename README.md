@@ -1,6 +1,16 @@
 # Docking-Molekul-dengan-Vina-Ver.1.2.5
 Tutorial langkah-langkah Docking Molekul Menggunakan Vina Versi 1.2.5 (2023) menggunakan command Prompt di Windows 11
 
+# Settingan Path Di Windows
+1. Buka path, buka search ketikkan path
+2. Klik Environmental Variables
+3. Klik Path > Edit
+4. Klik New > Masukkan Lokasi file atau folder kedalam path
+5. Klik Ok sampai semua windows tertutup (3 x klik ok)
+ada 4 lokasi program yang diinputkan kedalam path, yaitu:
+C:\Program Files (x86)\MGLTools-1.5.7
+vina. exe
+vina_split.exe
 
 # Required software
 1. Vina Versi 1.2.5 https://github.com/ccsb-scripps/AutoDock-Vina/releases atau bisa Pilih Versi Terbaru, di download dan di rename menjadi vina.exe
@@ -47,5 +57,7 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 - Offline Software Discovery Studio Visualizer
 - Koordinat XYZ dan radius Sisi Aktif yang didapat di copykan dalam notepad > disimpan dengan nama sisi aktif_nama protein 
 
-  
+  # Docking Ligan ke Protein Target Menggunakan Vina
+
+  # Penentuan Nilai RMSD Ligan hasil Docking 
 
