@@ -80,7 +80,7 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 7. Tunggu Hingga Selesai > Ligan Hasil Docking dan File Hasil ada dalam folder ligands
 
 # Penentuan Nilai RMSD Ligan hasil Docking dengan Discovery Studio Visualizer
-1. Validasi Metoda Untuk Docking ada di Penentuan RMSD Native_Ligan Redocking terhadap Native_Ligan posisi awal di Protein Target
+1. Validasi Metoda benar atau tidaknya Untuk Docking ada di Penentuan RMSD Native_Ligan Redocking terhadap Native_Ligan posisi awal di Protein Target
 2. RMSD Native_Ligan < 2 (Kualitas sangat baik sekali) atau diperboleh RMSD < 3 (Kualitas Baik)
 3. Buka file hasil docking dengan nama Native_ligand.pdbqt_Out.pdbqt atau disesuaikan nama ligannya_out.pdbqt
 4. Buka File Native_Ligan.pdbqt
@@ -90,5 +90,10 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 8. Klik Structure>RMSD>Heavy Atoms
 9. pada bagian bawah atau kanan akan terlihat Nilai RMSD, direkomendasikan Nilai RMSD adalah <2
    
-# Visualisasi Ligan hasil Docking pada Protein Target 
-
+# Visualisasi Ligan hasil Docking pada Protein Target dengan Discovery Studio Visualizer
+1. Buka file hasil docking dengan nama Native_ligand.pdbqt_Out.pdbqt dengan Discovery Studio Visualizer
+2. Buka Protein.pdbqt tanpa ligan di dengan Discovery Studio Visualizer
+3. Klik Native_ligand.pdbqt_Out.pdbqt > copy (ctrl+C) , Pastekan (ctrl+V) di Jendela Protein.pdbqt tanpa ligan
+4. Klik Ligan-Receptor Interactions > Klik Native_ligand.pdbqt_Out.pdbqt > Klik Define Ligand
+5. Untuk Melihat Residu Asam Amino yang berikatan Klik > Show 2D Diagram > gambar muncul dikanan > copy dan pastekan di word anda
+6. Untuk Melihat Interaksi Ikatan yang berikatan Klik > Ligand Interactions > Muncul gambar interaksi Protein dan Ligan > merubah latar menjadi Putih > Script > Visualitation > Publication Quality, Untuk menampilkan Nama residu asam amino di gambar > Klik Kanan > Label > Add > Pilih Object : Residue > Aplly (bisa Rubah Warna Tulisan Juga)
