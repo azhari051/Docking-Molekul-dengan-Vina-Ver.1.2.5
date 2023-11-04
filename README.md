@@ -16,35 +16,36 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 
 # Pemisahan Protein dan Ligan (menggunakan Biovia Discovery Studio Visualizer)
 1. Protein dapat di download dari situs https://www.rcsb.org/
-2. Memisahkan Protein, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Ligan (Script > Selection > Select Ligands > Delete) > Save Protein dalam Format .mol2
-3. Memisahkan Native_Ligan, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Protein (Script > Selection > Select Ligands > Edit > Invert Selection > Delete) > Save Ligan dalam Format .mol2
+2. Memisahkan Protein, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Ligan (Script > Selection > Select Ligands > Delete) > Save Protein dalam Format .pdb
+3. Memisahkan Native_Ligan, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Protein (Script > Selection > Select Ligands > Edit > Invert Selection > Delete) > Save Ligan dalam Format .pdb
 
 # Preparasi Protein Menggunakan Autodock Tools
 1. Pisahkan Pertama Molekul Air dan native_ligands Biovia Discovery Studio Visualizer
 2. Buka File pdb Protein protein.pdb
-3. Tambahkan Hydrogen (Edit-Add Hydrogen-All)
+3. Tambahkan Hydrogen (klik Edit>Add Hydrogen>All)
 4. Edit add gasteiger charge
 5. Edit-Hydrogen Merge Non Polar
 6. Grid-Macromolecules-Choose
 7. Simpan dan beri nama protein.pdbqt > simpan
 
 # Preparasi Native_Ligan Menggunakan Autodock Tools
-Select File Read Molecules, look for ligand.pdb
-Added Hydrogen with Edit-Add Hydrogen-All
-Edit add gasteiger charge
-Edit-Hydrogen Merge Non Polar
-Ligand-Input-choose
-Select ligand.pdb
-ligand-Toorsion tree-detect root
-Click Ligand-Torsion Tree-Choose Torsions, Select Done
-Select Ligand-Torsion Tree-Set Number of Torsions select fewest atom, and Dismiss
-Select Ligand-output-save as ligand.pdbqt
+1. Buka Native_ligand.pdb
+2. Tambahkan Hydrogen (klik Edit>Add Hydrogen>All)
+3. Edit tambahkan gasteiger charge
+4. Edit-Hydrogen Merge Non Polar
+5. Klik Ligand>Input>choose
+6. Pilih Native_ligand.pdb
+7. ligand>Toorsion tree>detect root
+8. Klik Ligand>Torsion Tree>Choose Torsions, Klik Done
+9. Select Ligand>Torsion Tree>Set Number of Torsions select atom yang sedikit, dan Klik Dismiss
+10. Select Ligand>output>simpan dan beri Nama Native_ligand.pdbqt
 
 # Penentuan Sisi Aktif pada Protein Target
 - membaca artikel protein di RCSB
 - Online > Website Uniprot https://www.uniprot.org/
 - Online server >  Aplikasi Online : ICM-PocketFinder, CASTp, Chimera, Qsite, Scfbio online server
 - Offline Software Discovery Studio Visualizer
+- Koordinat XYZ dan radius Sisi Aktif yang didapat di copykan dalam notepad > disimpan dengan nama sisi aktif_nama protein 
 
   
 
