@@ -18,3 +18,33 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 1. Protein dapat di download dari situs https://www.rcsb.org/
 2. Memisahkan Protein, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Ligan (Script > Selection > Select Ligands > Delete) > Save Protein dalam Format .mol2
 3. Memisahkan Native_Ligan, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Protein (Script > Selection > Select Ligands > Edit > Invert Selection > Delete) > Save Ligan dalam Format .mol2
+
+# Preparasi Protein Menggunakan Autodock Tools
+1. Pisahkan Pertama Molekul Air dan native_ligands Biovia Discovery Studio Visualizer
+2. Buka File pdb Protein protein.pdb
+3. Tambahkan Hydrogen (Edit-Add Hydrogen-All)
+Edit add gasteiger charge
+Edit-Hydrogen Merge Non Polar
+Grid-Macromolecules-Choose
+save protein.pdbqt
+
+# Preparasi Native_Ligan Menggunakan Autodock Tools
+Select File Read Molecules, look for ligand.pdb
+Added Hydrogen with Edit-Add Hydrogen-All
+Edit add gasteiger charge
+Edit-Hydrogen Merge Non Polar
+Ligand-Input-choose
+Select ligand.pdb
+ligand-Toorsion tree-detect root
+Click Ligand-Torsion Tree-Choose Torsions, Select Done
+Select Ligand-Torsion Tree-Set Number of Torsions select fewest atom, and Dismiss
+Select Ligand-output-save as ligand.pdbqt
+
+# Penentuan Sisi Aktif pada Protein Target
+- membaca artikel protein di RCSB
+- Online > Website Uniprot https://www.uniprot.org/
+- Online server >  Aplikasi Online : ICM-PocketFinder, CASTp, Chimera, Qsite, Scfbio online server
+- Offline Software Discovery Studio Visualizer
+
+  
+
