@@ -23,10 +23,10 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 1. Pisahkan Pertama Molekul Air dan native_ligands Biovia Discovery Studio Visualizer
 2. Buka File pdb Protein protein.pdb
 3. Tambahkan Hydrogen (Edit-Add Hydrogen-All)
-Edit add gasteiger charge
-Edit-Hydrogen Merge Non Polar
-Grid-Macromolecules-Choose
-save protein.pdbqt
+4. Edit add gasteiger charge
+5. Edit-Hydrogen Merge Non Polar
+6. Grid-Macromolecules-Choose
+7. Simpan dan beri nama protein.pdbqt > simpan
 
 # Preparasi Native_Ligan Menggunakan Autodock Tools
 Select File Read Molecules, look for ligand.pdb
