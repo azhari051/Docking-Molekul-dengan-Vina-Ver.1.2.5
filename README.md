@@ -24,7 +24,7 @@ vina_split.exe
 # Semua Software yang Dibutuhkan
 bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd045z9aQAGS4b?usp=drive_link
 
-# Pemisahan Protein dan Ligan (menggunakan Biovia Discovery Studio Visualizer)
+# Pemisahan Protein dan Native_Ligan (menggunakan Biovia Discovery Studio Visualizer)
 1. Protein dapat di download dari situs https://www.rcsb.org/
 2. Memisahkan Protein, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Ligan (Script > Selection > Select Ligands > Delete) > Save Protein dalam Format .pdb
 3. Memisahkan Native_Ligan, hapus molekul air (Script > Selection > Select Water Molecules > Delete) dan Protein (Script > Selection > Select Ligands > Edit > Invert Selection > Delete) > Save Ligan dalam Format .pdb
