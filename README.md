@@ -10,5 +10,9 @@ Tutorial langkah-langkah Docking Molekul Menggunakan Vina Versi 1.2.5 (2023) men
 5. Discovery Studio (Version 2021) https://discover.3ds.com/discovery-studio-visualizer-download
 6. Marvin Sketch https://chemaxon.com/marvin atau ChemDraw Ultra Versi 12
 
-# Software yang Dibutuhkan
+# Semua Software yang Dibutuhkan
 bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd045z9aQAGS4b?usp=drive_link
+
+# Pemisahan Protein dan Ligan (menggunakan Biovia Discovery Studio Visualizer)
+1. Memisahkan Protein, hapus molekul air dan Ligan
+2. Memisahkan Native_Ligan, hapus molekul air dan Protein
