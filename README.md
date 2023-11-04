@@ -12,7 +12,7 @@ C:\Program Files (x86)\MGLTools-1.5.7
 vina. exe
 vina_split.exe
 
-# Required software
+# Software yang Dibutuhkan
 1. Vina Versi 1.2.5 https://github.com/ccsb-scripps/AutoDock-Vina/releases atau bisa Pilih Versi Terbaru, di download dan di rename menjadi vina.exe
 2. Vina dan Script Vina bisa di download di https://drive.google.com/drive/folders/1nWgguowPkIm4MjWj1DJNkgvvgSz8Hpel?usp=drive_link
 3. Vegazz https://www.ddl.unimi.it/cms/index.php?Software_projects:VEGA_ZZ:Download
