@@ -64,15 +64,31 @@ bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd0
 11. Select Ligand>output>simpan dan beri Nama Ligan_Uji.pdbqt
 
 # Penentuan Sisi Aktif pada Protein Target
-- membaca artikel protein di RCSB
+- Membaca artikel protein di RCSB
 - Online > Website Uniprot https://www.uniprot.org/
 - Online server >  Aplikasi Online : ICM-PocketFinder, CASTp, Chimera, Qsite, Scfbio online server
 - Offline Software Discovery Studio Visualizer
 - Koordinat XYZ dan radius Sisi Aktif yang didapat di copykan dalam notepad > disimpan dengan nama sisi aktif_nama protein 
 
 # Docking Ligan ke Protein Target Menggunakan Vina
-1. Protein.pdb dan Native_ligan
-2. Copykan file Vina dan Script Vina yang di download di https://drive.google.com/drive/folders/1nWgguowPkIm4MjWj1DJNkgvvgSz8Hpel?usp=drive_link ke dalam folder
+1. Protein.pdbqt, Native_ligan.pdbqt dan Ligan_Uji.pdbqt diletakkan dalam satu Folder
+2. Lalu Buat Folder Baru lalu beri nama "ligands" > Enter
+3. Copykan Native_ligan.pdbqt dan Ligan_Uji.pdbqt kedalam Folder ligands
+4. Copykan file Vina dan Script Vina yang di download di https://drive.google.com/drive/folders/1nWgguowPkIm4MjWj1DJNkgvvgSz8Hpel?usp=drive_link ke dalam folder yang terdapat Protein.pdbqt, Native_ligan.pdbqt dan Ligan_Uji.pdbqt
+5. Buka config.txt dengan notepad lalu masukkan Koordinat XYZ dan radius Sisi Aktif serta ubah nama protein sesuai dengan nama Protein.pdbqt (kalau namanya dirubah, sesuaikan penamaannya dengan file pdbqt proteinnya) > save
+6. Klik run vina.bat
+7. Tunggu Hingga Selesai > Ligan Hasil Docking dan File Hasil ada dalam folder ligands
 
-# Penentuan Nilai RMSD Ligan hasil Docking 
+# Penentuan Nilai RMSD Ligan hasil Docking dengan Discovery Studio Visualizer
+1. Validasi Metoda Untuk Docking ada di Penentuan RMSD Native_Ligan Redocking terhadap Native_Ligan posisi awal di Protein Target
+2. RMSD Native_Ligan < 2 (Kualitas sangat baik sekali) atau diperboleh RMSD < 3 (Kualitas Baik)
+3. Buka file hasil docking dengan nama Native_ligand.pdbqt_Out.pdbqt atau disesuaikan nama ligannya_out.pdbqt
+4. Buka File Native_Ligan.pdbqt
+5. Klik File Native_Ligan.pdbqt
+6. Klik Structure>RMSD>Set Reference
+7. File Native_ligand.pdbqt_Out.pdbqt
+8. Klik Structure>RMSD>Heavy Atoms
+9. pada bagian bawah atau kanan akan terlihat Nilai RMSD, direkomendasikan Nilai RMSD adalah <2
+   
+# Visualisasi Ligan hasil Docking pada Protein Target 
 
