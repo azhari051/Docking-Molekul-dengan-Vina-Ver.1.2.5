@@ -22,7 +22,9 @@ vina_split.exe
 7. Notepad ++ https://notepad-plus-plus.org/downloads/
 
 # Semua Software yang Dibutuhkan
-bisa didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd045z9aQAGS4b?usp=drive_link
+1. Semua software yang dibutuhkan dapat didownload di https://drive.google.com/drive/folders/1dKsa3nHUQzslO-emkJHd045z9aQAGS4b?usp=drive_link
+2. Semua software yang Wajib diinstal adalah Vegazz,  Mgl Tools, Discovery Studio dan Marvin Sketch
+
 
 # Pemisahan Protein dan Native_Ligan (menggunakan Biovia Discovery Studio Visualizer)
 1. Protein dapat di download dari situs https://www.rcsb.org/
