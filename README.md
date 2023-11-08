@@ -84,13 +84,16 @@ vina_split.exe
 # Penentuan Nilai RMSD Ligan hasil Docking dengan Discovery Studio Visualizer
 1. Validasi Metoda benar atau tidaknya Untuk Docking ada di Penentuan RMSD Native_Ligan Redocking terhadap Native_Ligan posisi awal di Protein Target
 2. RMSD Native_Ligan < 2 (Kualitas sangat baik sekali) atau diperboleh RMSD < 3 (Kualitas Baik)
-3. Buka file hasil docking dengan nama Native_ligand.pdbqt_Out.pdbqt atau disesuaikan nama ligannya_out.pdbqt
-4. Buka File Native_Ligan.pdbqt
-5. Klik File Native_Ligan.pdbqt
-6. Klik Structure>RMSD>Set Reference
-7. File Native_ligand.pdbqt_Out.pdbqt
-8. Klik Structure>RMSD>Heavy Atoms
-9. pada bagian bawah atau kanan akan terlihat Nilai RMSD, direkomendasikan Nilai RMSD adalah <2
+3. Buka file hasil docking dengan nama Native_ligand.pdbqt_Out.pdbqt atau disesuaikan nama ligannya_out.pdbqt dengan discovery studio visualizer
+4. Jika Error dan tidak terlihat hasil konformasi ligan hasil docking, maka buka hasil docking menggunakan Vegazz
+5. Ada 9 konformasi ligan hasil docking, dibuka dan di save satu persatu
+6. Beri Nama dari konformasi 1 hingga 9 pada saat disimpan, lalu buka masing2 konformasi dengan discovery studio visualizer
+7. . Buka File Native_Ligan.pdbqt
+8. . Klik File Native_Ligan.pdbqt
+9. . Klik Structure > RMSD >Set Reference
+10. File Native_ligand.pdbqt_Out.pdbqt
+11. Klik Structure> RMSD> Heavy Atoms
+12. pada bagian bawah atau kanan akan terlihat Nilai RMSD, direkomendasikan Nilai RMSD adalah <2
    
 # Visualisasi Ligan hasil Docking pada Protein Target dengan Discovery Studio Visualizer
 1. Buka file hasil docking dengan nama Native_ligand.pdbqt_Out.pdbqt dengan Discovery Studio Visualizer
